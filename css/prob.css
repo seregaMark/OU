@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4C2C2;
+    display: flex;
+    justify-content: center;
+    max-width: 1140px;
+    margin: 10px auto;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    /* margin-bottom: 12px; */
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 500px) {
+    .main {
+        display: flex;
+        margin: 0 10px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 48px;
+    }
+
+    
+
+    .offers_table {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .heading {
+        display: flex;
+    }
+}
+
+/* p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+    }
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    } */
+
+
+
+/* .offers_table_probe {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px 0 0;
+}
+
+.first_second,
+.second_second {
+    border: 1px solid black;
+    width: 50%;
+}
+
+.first_second {
+    float: left;
+}
+
+.second_second {
+    float: right;
+}
+
+.first_another,
+.second_another {
+    border: 1px solid black;
+    width: 50%;
+}
+
+.first_another p,
+.second_another p {
+    margin: 5px;
+}
+
+.first_another h3 {
+    margin: 2px 0;
+} */

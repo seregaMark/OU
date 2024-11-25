@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4C2C2;
+}
+
+.content .container {
+    max-width: 1140px;
+    margin: 10px auto;
+}
+
+header {
+    background-color: #b3dcfd;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 38px;
+}
+
+.perexod__footer {
+    float: right;
+    margin: 20px 25px 0 0;
+}
+
+.perexod__header {
+    float: left;
+    margin: 20px 0 0 25px;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+footer {
+    background-color: #cdb5fa;
+    width: 100%;
+    height: 100px;
+}
+
+/* footer,
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; 
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.zvuk h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.oglav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.lang {
+    margin-bottom: 30px;
+}
+
+.gdz {
+    margin-bottom: 45px;
+}
+
+.gdz h2 {
+    margin-bottom: 10px;
+}
+
+.gdz h3 {
+    margin-bottom: 5px;
+}
+
+.audio h3 {
+    margin: 20px 0 10px;
+}
+
+/* .perexod__header {
+    display: flex;
+    float: left;
+} */
+
+@media screen and (max-width: 500px) {
+    .main {
+        display: flex;
+        padding: 0px 16px;
+        margin-bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+        align-self: stretch;
+    }
+
+    .zagalovok {
+        margin: 15px 0;
+    }
+    
+    .pravila h3 {
+        margin: 0 0 10px;
+    }
+
+    .zada {
+        margin: 0 0 20px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+    }
+    
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+    
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+
+    .pravila {
+        margin: 0 0 15px;
+    }
+    
+    .perexods {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perexod__footer {
+        margin: 10px auto 0;
+    }
+
+    .perexod__header {
+        margin: 10px auto;
+    }
+
+    .zvuk h1 {
+        margin-top: 10px;
+    }
+}
+
+/* big screen  */
+@media screen and (min-width: 900px) and (max-width: 1400px){
+    main {
+        padding: 0 15px;
+    }
+}
